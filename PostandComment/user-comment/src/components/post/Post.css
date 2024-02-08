@@ -1,0 +1,23 @@
+.post-container{
+    background-color: rgb(241, 236, 230);
+    padding: 16px;
+    border-radius: 16px;
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    margin-top: 10px;
+    flex-direction: column;
+    gap: 20px;
+ .post{
+    margin-top: 10px;
+    .upper{
+        display: flex;
+        gap: 16px;
+    }
+    .lower{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+ }
+}
